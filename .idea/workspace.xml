@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b391519e-dc07-4cdd-957e-448dca56e481" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CryptoManager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoManager/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CryptoManager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoManager/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/templates/registration/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/templates/wallet/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/templates/wallet/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
