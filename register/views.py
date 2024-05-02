@@ -5,15 +5,15 @@ from .forms import RegisterForm, LoginForm
 
 # Create your views here.
 def register(request):
-    if request.method == "POST":
+    if request.method == 'POST':
         form = RegisterForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect("/login")
+            return redirect('/login')
     else:
         form = RegisterForm()
 
-    return render(request, "register/register.html", {"form": form})
+    return render(request, 'register.html', {'form': form})
 
 
 def user_login(request):
@@ -29,7 +29,7 @@ def user_login(request):
     else:
         form = LoginForm()
 
-    return render(request, 'login/login.html', {'form': form})
+    return render(request, 'login.html', {'form': form})
 
 
 def user_logout(request):
