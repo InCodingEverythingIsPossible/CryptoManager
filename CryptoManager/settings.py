@@ -37,8 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.sessions',
     'django.contrib.staticfiles',
-    'crispy_forms',
-    'crispy_bootstrap5',
+    'fontawesomefree',
     'wallet.apps.WalletConfig',
     'register.apps.RegistrationConfig'
 ]
