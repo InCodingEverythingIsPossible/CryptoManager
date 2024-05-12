@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b391519e-dc07-4cdd-957e-448dca56e481" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wallet/templates/wallet/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoManager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoManager/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoManager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoManager/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/templates/todos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/templates/wallet/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +48,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\home\templates" />
+      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\home\templates\home" />
       <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\wallet\templates\wallet" />
       <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\wallet\templates" />
       <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\register\templates" />
-      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\wallet\templates\base" />
-      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\registration\templates\registration" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -3,6 +3,6 @@ from django.shortcuts import render
 
 
 def wallet(request):
-    return render(request, "home.html")
+    return render(request, "home/base.html")
 
 

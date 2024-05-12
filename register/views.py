@@ -25,7 +25,7 @@ def user_login(request):
             user = authenticate(request, username=username, password=password)
             if user:
                 login(request, user)
-                return redirect('wallet')
+                return redirect('home')
     else:
         form = LoginForm()
 

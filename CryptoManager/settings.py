@@ -38,8 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.staticfiles',
     'fontawesomefree',
+    'register.apps.RegistrationConfig',
+    'home.apps.HomeConfig',
     'wallet.apps.WalletConfig',
-    'register.apps.RegistrationConfig'
 ]
 
 MIDDLEWARE = [
