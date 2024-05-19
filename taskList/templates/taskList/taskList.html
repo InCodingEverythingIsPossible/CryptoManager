@@ -1,0 +1,36 @@
+{% extends "taskList/base.html" %}
+
+{% block task_content %}
+<h1 class="mb-4">My To Do List</h1>
+<a href="{% url 'createTask' %}" class="btn btn-success mb-3">Add Task</a>
+
+<form method="GET" class="search-form mb-4">
+    <div class="input-group">
+        <input type="text" name="search" value="{{search_input}}" class="form-control" placeholder="Search tasks">
+        <button type="submit" class="btn btn-outline-primary">Search</button>
+    </div>
+</form>
+
+{% if tasks %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for task in tasks %}
+    <tr>
+        <td><a href="{% url 'task' task.id %}" class="task-title">{{ task.title }}</a></td>
+        <td><a href="{% url 'updateTask' task.id %}" class="btn btn-warning"><i class="fas fa-edit"></i></a></td>
+        <td><a href="{% url 'deleteTask' task.id %}" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p class="text-center text-white">No items in the list</p>
+{% endif %}
+{% endblock task_content %}

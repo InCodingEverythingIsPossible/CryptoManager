@@ -6,10 +6,12 @@
       <change beforePath="$PROJECT_DIR$/CryptoManager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoManager/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CryptoManager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoManager/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/register/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/templates/todos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/templates/wallet/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/views.py" afterDir="false" />
     </list>
@@ -22,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,22 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programowanie_projekty/Python Projekty/CryptoManager&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Programowanie_projekty/Python Projekty/CryptoManager",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\home\templates" />
+      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\taskList\templates\taskList" />
+      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\register\templates\register" />
       <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\home\templates\home" />
+      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\home\templates" />
       <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\wallet\templates\wallet" />
-      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\wallet\templates" />
-      <recent name="E:\Programowanie_projekty\Python Projekty\CryptoManager\register\templates" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

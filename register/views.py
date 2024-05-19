@@ -13,7 +13,7 @@ def register(request):
     else:
         form = RegisterForm()
 
-    return render(request, 'register.html', {'form': form})
+    return render(request, 'register/register.html', {'form': form})
 
 
 def user_login(request):
@@ -29,7 +29,7 @@ def user_login(request):
     else:
         form = LoginForm()
 
-    return render(request, 'login.html', {'form': form})
+    return render(request, 'register/login.html', {'form': form})
 
 
 def user_logout(request):

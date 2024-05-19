@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.staticfiles',
     'fontawesomefree',
+    'crispy_forms',
     'register.apps.RegistrationConfig',
     'home.apps.HomeConfig',
     'wallet.apps.WalletConfig',
+    'taskList.apps.TaskListConfig'
 ]
 
 MIDDLEWARE = [
@@ -124,8 +126,7 @@ STATIC_URL = 'static/'
 CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
-LOGIN_REDIRECT_URL = "/"
-LOGOUT_REDIRECT_URL = "/"
+LOGIN_URL = 'login'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

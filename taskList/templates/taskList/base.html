@@ -1,0 +1,138 @@
+{% extends "home/base.html" %}
+
+{% block title %} TaskList {% endblock %}
+
+{% block main %}
+<div class="container-fluid p-4" style="background-color: #3b3955; flex: 1; display: flex; justify-content: center; align-items: center;">
+    <div class="card shadow-lg border-0 rounded" style="width: 100%; max-width: 800px;">
+        <div class="card-header text-white rounded-top" style="background-color: #6f42c1; padding: 20px;">
+            <h2 class="mb-0">Task List</h2>
+        </div>
+        <div class="card-body" style="background-color: #3b3955;">
+            {% block task_content %}
+            {% endblock task_content %}
+        </div>
+    </div>
+</div>
+
+{% block style %}
+<style>
+    .container-fluid {
+        background-color: #3b3955;
+    }
+
+    .card {
+        background-color: #444;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-header {
+        color: white;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        font-size: 1.5rem;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .card-body {
+        background-color: #3b3955;
+        padding: 30px;
+    }
+
+    .form-control, .btn {
+        border-radius: 5px;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .table {
+        width: 100%;
+        margin-top: 20px;
+        background-color: #343a40;
+        color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .table thead th {
+        border-bottom: 2px solid #444;
+        padding: 15px;
+        color: #adb5bd;
+    }
+
+    .table tbody tr {
+        border-bottom: 1px solid #444;
+    }
+
+    .table tbody tr:hover {
+        background-color: #495057;
+    }
+
+    .table tbody td {
+        padding: 15px;
+    }
+
+    .btn-info, .btn-warning, .btn-danger {
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+    .search-form {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .search-form input {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .task-title {
+        color: dark;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .task-title:hover {
+        text-decoration: underline;
+    }
+
+    .fas {
+        font-size: 1.2rem;
+    }
+</style>
+{% endblock style %}
+{% endblock main %}
