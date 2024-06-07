@@ -197,28 +197,53 @@
                         <i class='fa-brands fa-bitcoin nav_logo-icon'></i>
                         <span class="nav_logo-name">Crypto Manager</span>
                     </a>
-                    <div class="nav_list"> 
-                        <a href="{% url 'home' %}" class="nav_link active">
-                            <i class='fa-solid fa-house nav_icon'></i>
-                            <span class="nav_name">Home</span>
-                        </a>
+                    <div class="nav_list">
+                        {% if request.resolver_match.url_name == 'home' %}
+                            <a href="{% url 'home' %}" class="nav_link active">
+                                <i class='fa-solid fa-house nav_icon'></i>
+                                <span class="nav_name">Home</span>
+                            </a>
+                        {% else %}
+                            <a href="{% url 'home' %}" class="nav_link">
+                                <i class='fa-solid fa-house nav_icon'></i>
+                                <span class="nav_name">Home</span>
+                            </a>
+                        {% endif %}
+
                         {% if request.user.is_authenticated %}
-                        <a href="#" class="nav_link"> 
-                            <i class='fa-solid fa-chart-simple nav_icon'></i>
-                            <span class="nav_name">Dashboard</span>
-                        </a> 
-                        <a href="{% url 'wallet' %}" class="nav_link">
-                            <i class='fa-solid fa-wallet nav_icon'></i>
-                            <span class="nav_name">Wallet</span>
-                        </a> 
-                        <a href="#" class="nav_link"> 
-                            <i class='fa-solid fa-money-bills nav_icon'></i>
-                            <span class="nav_name">Expenses</span>
-                        </a>
-                        <a href="{% url 'taskList' %}" class="nav_link">
-                            <i class='fa-solid fa-list-check nav_icon'></i>
-                            <span class="nav_name">To do</span>
-                        </a>
+                            <a href="#" class="nav_link">
+                                <i class='fa-solid fa-chart-simple nav_icon'></i>
+                                <span class="nav_name">Dashboard</span>
+                            </a>
+
+                            {% if request.resolver_match.url_name == 'wallet' %}
+                                <a href="{% url 'wallet' %}" class="nav_link active">
+                                    <i class='fa-solid fa-wallet nav_icon'></i>
+                                    <span class="nav_name">Wallet</span>
+                                </a>
+                            {% else %}
+                                <a href="{% url 'wallet' %}" class="nav_link">
+                                    <i class='fa-solid fa-wallet nav_icon'></i>
+                                    <span class="nav_name">Wallet</span>
+                                </a>
+                            {% endif %}
+
+                            <a href="#" class="nav_link">
+                                <i class='fa-solid fa-money-bills nav_icon'></i>
+                                <span class="nav_name">Expenses</span>
+                            </a>
+
+                            {% if request.resolver_match.url_name == 'taskList' %}
+                                <a href="{% url 'taskList' %}" class="nav_link active">
+                                    <i class='fa-solid fa-list-check nav_icon'></i>
+                                    <span class="nav_name">To do</span>
+                                </a>
+                            {% else %}
+                                <a href="{% url 'taskList' %}" class="nav_link">
+                                    <i class='fa-solid fa-list-check nav_icon'></i>
+                                    <span class="nav_name">To do</span>
+                                </a>
+                            {% endif %}
                         {% endif %}
                     </div>
                 </div>
