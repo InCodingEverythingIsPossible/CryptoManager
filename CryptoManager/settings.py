@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure-!m97eci#ws!d0f$3ttpq=(mb!0th)aa5xqp0arya*g+2r)n$zu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['cryptomanager-production.up.railway.app']
+ALLOWED_HOSTS = ['cryptomanager-production.up.railway.app']
 
 
-# CSRF_TRUSTED_ORIGINS = ['https://cryptomanager-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://cryptomanager-production.up.railway.app']
 
 
 # Application definition
