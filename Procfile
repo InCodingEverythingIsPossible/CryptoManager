@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn CryptoManager.wsg
+web: python manage.py migrate && gunicorn CryptoManager.wsgi
