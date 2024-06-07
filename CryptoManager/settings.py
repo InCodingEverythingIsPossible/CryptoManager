@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['cryptomanager-production.up.railway.app']
 
+CSRF_TRUSTED_ORIGINS = ['https://cryptomanager-production.up.railway.app/']
+
 
 # Application definition
 
